@@ -3,8 +3,8 @@ import { Instagram } from "react-bootstrap-icons";
 
 // This is the default page when a user visits the site. It'll just display some images of products, and an Instagram link
 function HomePage(props) {
-  // const oreoBall = require("./../../resources/images/oreo ball.webp");
-  // const allChoc = require("./../../resources/images/all choc cookies.webp");
+  const oreoBall = require("./../../resources/images/oreo ball.webp");
+  const allChoc = require("./../../resources/images/all choc cookies.webp");
 
   return (
     <Container style={{ marginTop: "15px" }} className="home">
@@ -14,7 +14,7 @@ function HomePage(props) {
         </h1>
       </Card>
       <Stack direction="horizontal" className="mb-3 image-stack" gap={2}>
-        {/* <Stack direction="vertical">
+        <Stack direction="vertical">
           <Card.Img
             src={oreoBall}
             style={{ maxHeight: "500px" }}
@@ -25,7 +25,7 @@ function HomePage(props) {
             src={allChoc}
             style={{ maxHeight: "500px" }}
           />
-        </Stack> */}
+        </Stack>
       </Stack>
       <Card>
         <Card.Body className="text-center">
