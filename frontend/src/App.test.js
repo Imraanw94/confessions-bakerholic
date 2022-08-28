@@ -10,17 +10,17 @@ test("snapshot test of HomePage", () => {
   expect(tree).toMatchSnapshot();
 });
 
-test("snapshot test of HomePage", () => {
+test("snapshot test of AboutPage", () => {
   const tree = renderer.create(<AboutPage />).toJSON();
   expect(tree).toMatchSnapshot();
 });
 
-test("snapshot test of HomePage", () => {
+test("snapshot test of MenuPage", () => {
   const tree = renderer.create(<MenuPage />).toJSON();
   expect(tree).toMatchSnapshot();
 });
 
-test("snapshot test of HomePage", () => {
+test("snapshot test of ContactPage", () => {
   const tree = renderer.create(<ContactPage />).toJSON();
   expect(tree).toMatchSnapshot();
 });
